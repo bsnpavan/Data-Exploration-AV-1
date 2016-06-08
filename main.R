@@ -1,1 +1,3 @@
-data.frame<- read.csv(loan_train.csv)
+traindata<- read.csv("loan_train.csv")
+head(traindata)
+??tidyr
