@@ -1,0 +1,1 @@
+data.frame<- read.csv(loan_train.csv)
