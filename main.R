@@ -17,3 +17,4 @@ options(digits=2)
 stat.desc(train_cont)
 
 apply(train_cat, 2, function(x){length(unique(x))})
+table(train_cat$CoapplicantIncome)
